@@ -3,7 +3,7 @@ class Player extends Component {
     constructor(x, y, w, h) {
         super(x, y, w, h)
         this.img = new Image()
-        this.img.src = "../img/Player.png"
+        this.img.src = "./img/Player.png"
 
         this.gravity = 0.1
         this.ySpeed = 0

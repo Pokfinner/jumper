@@ -24,7 +24,7 @@ const myGameArea = {
         // Create the Background
         background = new Component(0, 0, myGameArea.canvas.width, myGameArea.canvas.height, "pink")
         background.img = new Image();
-        background.img.src = "../img/Background.png"
+        background.img.src = "./img/Background.png"
 
         // Create the Player
         player = new Player(0, 0, 24, 28)
