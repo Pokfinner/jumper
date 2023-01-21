@@ -73,3 +73,7 @@ document.addEventListener('keyup', ({ key }) => {
             return; // Quit when this doesn't handle the key event.
     }
 })
+
+window.onload = () => {
+    myGameArea.generateCanvas()
+}

@@ -149,5 +149,3 @@ const myGameArea = {
         }
     }
 }
-
-myGameArea.generateCanvas()
