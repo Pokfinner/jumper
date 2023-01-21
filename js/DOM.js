@@ -1,4 +1,3 @@
-
 document.getElementById("play").addEventListener('click', (event) => {
 
     myGameArea.start()
